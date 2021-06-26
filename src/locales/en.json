@@ -1,0 +1,286 @@
+{
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "Nope",
+    "edit": "Edit",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "add": "Add",
+    "create": "Create",
+    "submit": "Submit",
+    "remove": "Remove",
+    "buy": "Buy",
+    "sell" : "Sell",
+    "none" : "Hold"
+  },
+
+  "languages": {
+    "language": "Language",
+    "german": "German",
+    "english": "English"
+  },
+
+  "tooltips": {
+    "buy": "Buy now!",
+    "sell": "Sell now!"
+  },
+
+  "misc": {
+    "of": "of",
+    "hour": {
+      "singular": "Hour",
+      "plural": "Hours"
+    },
+    "day": {
+      "singular": "Day",
+      "plural": "Days"
+    }
+  },
+
+  "attributes": {
+    "id": {
+      "label": "ID",
+      "placeholder": "?_?_?_?"
+    },
+    "name": {
+      "label": "Name",
+      "placeholder": "Jane Doe"
+    },
+    "firstName": {
+      "label": "First Name",
+      "placeholder": "Jane"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "placeholder": "Doe"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "jane.doe@example.com"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "••••••••••••••"
+    },
+    "passwordRepeat": {
+      "label": "Repeat Password",
+      "placeholder": "••••••••••••••"
+    },
+    "street": {
+      "label": "Street",
+      "placeholder": "Main St"
+    },
+    "housenumber": {
+      "label": "Housenumber",
+      "placeholder": "123"
+    },
+    "postal": {
+      "label": "Postal",
+      "placeholder": "98765"
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "Anytown"
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "USA"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "..."
+    },
+    "additional": {
+      "label": "Additional Information",
+      "placeholder": "Apartment, Floor, ..."
+    },
+    "notes": {
+      "label": "Notes",
+      "placeholder": "..."
+    },
+    "createdAt": {
+      "label": "Created At",
+      "placeholder": "01/01/1970"
+    }
+  },
+
+  "modules": {
+    "authentication": {
+      "login": {
+        "title": "Login"
+      }
+    },
+    "notifications": {
+      "title" : {
+        "singular": "Notification",
+        "plural": "Notifications"
+      }
+    },
+
+    "dashboard": {
+      "title" : {
+        "singular" : "Dashboard"
+      },
+      "forward" : "Forward",
+      "backward": "Backward",
+      "portfolio" : {
+        "total": {
+          "label": "Total Value"
+        },
+        "expenditure" : {
+          "label" :  "Expenditure"
+        },
+        "yield": {
+          "label": "Yield"
+        },
+        "percent": {
+          "label": "Yield in Percent"
+        }
+      },
+      "indices" : {
+        "title" : "Top Indices"
+      },
+      "stocks" : {
+        "title" : "Top Stocks"
+      }
+    },
+    "profile": {
+      "title" : {
+        "singular": "Profile",
+        "plural": "Profile"
+      },
+      "detail": {
+        "title": "Edit profile details"
+      },
+      "portfolio_overview" : {
+        "title" : "Portfolio information",
+        "total": {
+          "label": "Total Value"
+        },
+        "expenditure" : {
+          "label" :  "Expenditure"
+        },
+        "yield": {
+          "label": "Yield"
+        },
+        "percent": {
+          "label": "Yield in Percent"
+        }
+      },
+      "user" : {
+        "title" : "User information"
+      }
+    },
+    "portfolio" : {
+      "title"         : {
+        "singular": "My Portfolio"
+      },
+      "portfolio_filter" : {
+        "title" : "Portfolio filter",
+        "recommendation":{
+          "search" : "Stock search",
+          "buy" : "Recommendation Buy",
+          "sell" : "Recommendation Sell",
+          "none" : "Recommendation None"
+        }
+      },
+      "portfolio_overview" : {
+        "title" : "Portfolio information",
+        "total": {
+          "label": "Total Value"
+        },
+        "expenditure" : {
+          "label" :  "Expenditure"
+        },
+        "yield": {
+          "label": "Yield"
+        },
+        "percent": {
+          "label": "Yield in Percent"
+        }
+      },
+      "stock_info"    : {
+        "title"     : "Stock information",
+        "price"     : "Price",
+        "difference": "Difference 24/h",
+        "percent"   : "Percent 24/h"
+      },
+      "stock_overview" :  {"title" : "Stock overview"},
+
+      "stockColumns": {
+        "id": "ID",
+        "symbol": "Symbol",
+        "name": "Name",
+        "stock_exchange_long" : "Stock Exchange",
+        "amount" : "Amount"
+      }
+    },
+    "stocks"    : {
+      "title" : {
+        "singular": "Stock",
+        "plural": "Stocks"
+      },
+
+      "stock_info" : {
+        "title"     : "Stock information",
+        "price"     : "Price",
+        "difference": "Difference 24/h",
+        "percent"   : "Percent 24/h"
+      },
+
+      "stock_overview" : "Stock overview",
+
+      "portfolio_filter" : {
+        "title" : "Portfolio filter",
+        "recommendation":{
+          "search" : "Stock search",
+          "buy" : "Recommendation Buy",
+          "sell" : "Recommendation Sell",
+          "none" : "Recommendation None"
+        }
+      },
+      "stockColumns": {
+        "id": "ID",
+        "symbol": "Symbol",
+        "name": "Name",
+        "stock_exchange_long" : "Stock Exchange",
+        "amount" : "Amount"
+      }
+    },
+    "userManagement": {
+      "title" : {
+        "singular": "User",
+        "plural": "Users"
+      },
+      "actions" : {
+        "create": {
+          "title": "Create User"
+        },
+        "detail": {
+          "title": "User Detail"
+        }
+      },
+      "list": {
+        "title": "User management"
+      },
+      "attributes": {
+        "permissions": {
+          "label": "Permissions",
+          "placeholder": "?_?_?_?"
+        },
+        "roles": {
+          "label": "Roles",
+          "placeholder": "?_?_?_?"
+        }
+      }
+    }
+  },
+
+  "comps": {}
+}

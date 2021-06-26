@@ -1,0 +1,285 @@
+{
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "back": "Zurück",
+    "delete": "Löschen",
+    "yes": "Ja",
+    "no": "Nope",
+    "edit": "Bearbeiten",
+    "login": "Login",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "add": "Hinzufügen",
+    "create": "Erstellen",
+    "submit": "Sichern",
+    "remove": "Entfernen",
+    "buy": "Kaufen",
+    "sell" : "Verkaufen",
+    "none" : "Halten"
+  },
+
+  "languages": {
+    "language": "Sprachen",
+    "german": "Deutsch",
+    "english": "Englisch"
+  },
+
+  "tooltips": {
+    "buy": "Kaufe jetzt!",
+    "sell": "Verkaufe jetzt!"
+  },
+  
+  "misc": {
+    "of": "von",
+    "hour": {
+      "singular": "Stunde",
+      "plural": "Stunden"
+    },
+    "day": {
+      "singular": "Tag",
+      "plural": "Tage"
+    }
+  },
+
+  "attributes": {
+    "id": {
+      "label": "ID",
+      "placeholder": "?_?_?_?"
+    },
+    "name": {
+      "label": "Name",
+      "placeholder": "Max Mustermann"
+    },
+    "firstName": {
+      "label": "Vorname",
+      "placeholder": "Max"
+    },
+    "lastName": {
+      "label": "Nachname",
+      "placeholder": "Mustermann"
+    },
+    "email": {
+      "label": "E-Mail",
+      "placeholder": "max.mustermann@beispiel.de"
+    },
+    "password": {
+      "label": "Passwort",
+      "placeholder": "••••••••••••••"
+    },
+    "passwordRepeat": {
+      "label": "Passwort wiederholen",
+      "placeholder": "••••••••••••••"
+    },
+    "street": {
+      "label": "Straße",
+      "placeholder": "Musterstr."
+    },
+    "housenumber": {
+      "label": "Hausnummer",
+      "placeholder": "1a"
+    },
+    "postal": {
+      "label": "PLZ",
+      "placeholder": "54321"
+    },
+    "city": {
+      "label": "Stadt",
+      "placeholder": "Musterstadt"
+    },
+    "country": {
+      "label": "Land",
+      "placeholder": "Deutschland"
+    },
+    "description": {
+      "label": "Beschreibung",
+      "placeholder": "..."
+    },
+    "additional": {
+      "label": "Zusätzliche Informationen",
+      "placeholder": "Appartement, Etage, ..."
+    },
+    "notes": {
+      "label": "Notizen",
+      "placeholder": "..."
+    },
+    "createdAt": {
+      "label": "Erstellt am",
+      "placeholder": "01.01.1970"
+    }
+  },
+
+  "modules": {
+    "authentication": {
+      "login": {
+        "title": "Login"
+      }
+    },
+
+
+
+    "dashboard": {
+      "title" : {
+        "singular" : "Dashboard"
+      },
+      "forward": "Rein",
+      "backward": "Raus",
+      "portfolio" : {
+        "expenditure" : {
+          "label"     :  "Ausgaben"
+        },
+        "yield": {
+          "label": "Rendite"
+        },
+        "percent": {
+          "label": "Rendite in Prozent"
+        },
+        "total": {
+          "label": "Gesamtwert"
+        }
+      },
+      "indices" : {
+        "title" : "Top Indices"
+      },
+      "stocks": {
+        "title": "Top Aktien"
+      }
+    },
+    "profile": {
+      "title" : {
+        "singular": "Profil",
+        "plural": "Profil"
+      },
+      "detail": {
+        "title": "Profil Details bearbeiten"
+      },
+      "portfolio_overview" : {
+        "title"       : "Portfolio Information",
+        "expenditure" : {
+          "label"     :  "Ausgaben"
+        },
+        "yield": {
+          "label": "Rendite"
+        },
+        "percent": {
+          "label": "Rendite in Prozent"
+        },
+        "total": {
+          "label": "Gesamtwert"
+        }
+      },
+      "user" : {
+        "title" : "Benutzer Information"
+      }
+    },
+    "portfolio" : {
+      "title"         : {
+        "singular": "Mein Portfolio"
+      },
+      "portfolio_filter" : {
+        "title" : "Portfolio Filter",
+        "recommendation":{
+          "search" : "Aktie suchen",
+          "buy" : "Empfehlungen zum kauf",
+          "sell" : "Empfehlungen zum verkauf",
+          "none" : "Keine Empfehlungen"
+        }
+      },
+      "portfolio_overview" : {
+        "title"       : "Portfolio Information",
+        "expenditure" : {
+          "label"     :  "Ausgaben"
+        },
+        "yield": {
+          "label": "Rendite"
+        },
+        "percent": {
+          "label": "Rendite in Prozent"
+        },
+        "total": {
+          "label": "Gesamtwert"
+        }
+      },
+      "stock_info" : {
+        "title"       : "Aktien Information",
+        "price"       : "Preis",
+        "difference"  : "Differenz 24/h",
+        "percent"     : "Prozent 24/h"
+      },
+      "stock_overview" : {"title" : "Aktien Übersicht"},
+      "stockColumns": {
+        "id": "ID",
+        "symbol": "Symbol",
+        "name": "Name",
+        "stock_exchange_long" : "Börse",
+        "amount" : "Anzahl"
+      }
+    },
+    "stocks" : {
+      "title" : {
+        "singular": "Aktie",
+        "plural": "Aktien"
+      },
+      "stock_info" : {
+        "title": "Aktien Information",
+        "price": "Preis",
+        "difference": "Differenz 24/h",
+        "percent": "Prozent 24/h"
+      },
+      "portfolio_filter" : {
+        "title" : "Portfolio Filter",
+        "recommendation":{
+          "search" : "Aktie suchen",
+          "buy" : "Empfehlungen zum kauf",
+          "sell" : "Empfehlungen zum verkauf",
+          "none" : "Keine Empfehlungen"
+        }
+      },
+      "stock_overview" : "Aktien Übersicht",
+
+      "stockColumns": {
+        "id": "ID",
+        "symbol": "Symbol",
+        "name": "Name",
+        "stock_exchange_long" : "Börse",
+        "amount" : "Anzahl"
+      }
+    },
+    "notifications": {
+      "title": {
+        "singular": "Benachrichtigung",
+        "plural": "Benachrichtigungen"
+      }
+    },
+    "userManagement": {
+      "title" : {
+        "singular": "Benutzer",
+        "plural": "Benutzer"
+      },
+      "actions" : {
+        "create": {
+          "title": "Nutzer erstellen"
+        },
+        "detail": {
+          "title": "Nutzer bearbeiten"
+        }
+      },
+      "list": {
+        "title": "Benutzerverwaltung"
+      },
+      "attributes": {
+        "permissions": {
+          "label": "Rechte",
+          "placeholder": "?_?_?_?"
+        },
+        "roles": {
+          "label": "Rollen",
+          "placeholder": "?_?_?_?"
+        }
+      }
+    }
+  },
+
+  "comps": {}
+}
