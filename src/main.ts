@@ -4,11 +4,9 @@ import router from './router';
 import store from './store';
 import i18n from './i18n';
 
-// import LightCSS from '@simon.marcel.linden/lightcss/dist/lightcss.esm.min.js';
+import "@simon.marcel.linden/lightcss/dist/lightcss.min.css";
 
 Vue.config.productionTip = false
-//Vue.use(LightCSS);
-
 
 new Vue({
   router,

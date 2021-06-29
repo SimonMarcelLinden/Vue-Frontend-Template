@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Response } from '@/models/response.model';
 import { Customer } from '@/models/customer.model';
 import { ActionTree } from 'vuex';
@@ -15,7 +16,7 @@ export const actions: ActionTree<AuthenticationState, RootState> = {
             AuthenticationService.login(email, password)
                 .then((response: Customer) => {
                     commit('loginSuccess', response);
-                    resolve();
+                    // resolve();
                 })
                 .catch((error: Response<any>) => {
                     commit('loginFailure', error);
@@ -34,7 +35,7 @@ export const actions: ActionTree<AuthenticationState, RootState> = {
         return new Promise((resolve) => {
             AuthenticationService.logout();
             commit('logoutSuccess');
-            resolve();
+            // resolve();
         });
     },
 };

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Response } from '@/models/response.model';
 import { Customer } from '@/models/customer.model';
 import config from './_config';

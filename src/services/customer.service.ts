@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Pageable } from '@/models/pageable.model';
 import { Response } from '@/models/response.model';
 import { TableParams } from '@/models/table-params.model';

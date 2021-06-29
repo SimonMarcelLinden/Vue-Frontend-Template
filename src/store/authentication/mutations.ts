@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { MutationTree } from 'vuex';
 
 import { AuthenticationState } from './types';
