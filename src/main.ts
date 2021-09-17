@@ -4,7 +4,9 @@ import router from './router';
 import store from './store';
 import i18n from './i18n';
 
-import "@simon.marcel.linden/lightcss/dist/lightcss.min.css";
+import SimplifyVue from 'simplify-vue'
+import 'simplify-css-pacakge';
+import 'simplify-icon';
 
 Vue.config.productionTip = false
 
