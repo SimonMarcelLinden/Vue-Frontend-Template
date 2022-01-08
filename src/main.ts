@@ -5,7 +5,7 @@ import store from './store';
 import i18n from './i18n';
 
 import SimplifyVue from 'simplify-vue'
-import 'simplify-css-pacakge';
+import 'simplify-css-package';
 import 'simplify-icon';
 
 Vue.config.productionTip = false
